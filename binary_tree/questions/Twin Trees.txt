@@ -1,0 +1,30 @@
+Given two binary trees, root0 and root1, return whether their structure and values are equal.
+
+For example, these two trees are equal.
+
+   0         0
+  / \       / \
+ 5   9     5   9
+These two are not since their values are different.
+
+   0         1
+  / \       / \
+ 5   9     9   5
+These two are not since their structure is different:
+
+   0         0
+  / \       / \
+ 5   9     5   9
+  \
+   3
+Example 1
+Input
+
+root0 = [-75, null, null]
+root1 = [-75, null, null]
+Output
+
+true
+Explanation
+
+These two trees have the same values and same structure.

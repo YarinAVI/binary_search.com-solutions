@@ -1,0 +1,41 @@
+Given a binary tree root, return whether all values in the tree are the same.
+
+For example, given
+
+   3
+  / \
+ 3   3
+    / \
+   3   3
+  / \
+ 3   3
+Return true
+
+Given,
+
+   3
+  / \
+ 3   4
+Return false.
+
+Example 1
+Input
+
+root = [870, [870, [870, null, null], null], [870, [870, null, null], null]]
+Output
+
+true
+Explanation
+
+Every node has the value 870
+
+Example 2
+Input
+
+root = [862, [862, [862, null, null], null], [862, [9000, null, null], null]]
+Output
+
+false
+Explanation
+
+There is a node with a value 9000 while others are 862

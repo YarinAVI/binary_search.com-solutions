@@ -1,0 +1,23 @@
+You are given an integer k and a binary search tree root, where each node is either a leaf or contains 2 children.
+
+Find the node containing the value k, and return its sibling's value.
+
+For example, given the tree:
+
+   5
+  / \
+ 1   8
+    / \
+   6   9
+and k = 1 return 8. Given k = 9, return 6.
+
+You can assume that the answer always exists (e.x. root won't have value of k)
+
+Example 1
+Input
+
+root = [2, [1, null, null], [3, null, null]]
+k = 1
+Output
+
+3

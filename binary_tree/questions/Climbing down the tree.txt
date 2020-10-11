@@ -1,0 +1,22 @@
+Given the root to a binary tree, return the largest sum of any path that goes from the root to a leaf.
+
+For example, given the tree:
+
+   1
+  / \
+ 5   4
+    / \
+   7   12
+  / \
+ 4   8
+Return 20, since the path with the largest sum is 1 -> 4 -> 7 -> 8.
+
+Note: Nodes can have negative values.
+
+Example 1
+Input
+
+root = [1, [5, null, null], [4, [7, [4, null, null], [8, null, null]], [12, null, null]]]
+Output
+
+20

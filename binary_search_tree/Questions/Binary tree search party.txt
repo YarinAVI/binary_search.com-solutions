@@ -1,0 +1,24 @@
+Given the root to a binary search tree and an integer val, determine whether val is in the tree.
+
+For example, given the following binary search tree:
+
+   3
+  / \
+ 2   9
+    / \
+   7   12
+  / \
+ 4   8
+and val = 4, return true since it's in the tree. If val = 10, return false since it's not in the tree.
+
+Example 1
+Input
+
+root = [1, null, [49, null, [97, null, null]]]
+val = 97
+Output
+
+true
+Explanation
+
+97 is in root.right.right

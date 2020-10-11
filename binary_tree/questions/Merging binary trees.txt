@@ -1,0 +1,24 @@
+Given two binary trees node0 and node1, return a merge of the two trees where each value is equal to the sum of the values of the corresponding nodes of the input trees. If only one input tree has a node in a given position, the corresponding node in the new tree should match that input node.
+
+For example, given
+
+   0         7
+  / \       / \
+ 3   2     5   1
+    /
+   3
+Return
+
+   7
+  / \ 
+ 8   3
+    /
+   3
+Example 1
+Input
+
+node0 = [1, [0, null, null], null]
+node1 = [1, null, null]
+Output
+
+[2, [0, null, null], null]
