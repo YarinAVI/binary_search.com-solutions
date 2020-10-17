@@ -1,0 +1,23 @@
+Given a binary search tree root containing unique values, and an integer t, return the value of the inorder successor of t. That is, return the smallest value greater than t in the tree.
+
+Note: you can assume that the inorder successor exists.
+
+For example, given this root, and t = 2
+
+   5
+  / \
+ 2   8
+    / \
+   6   9
+Return 5.
+
+Bonus: can you do it in O(h) space where h is the height of the tree?
+
+Example 1
+Input
+
+root = [2, [0, null, [1, null, null]], [3, null, [4, null, null]]]
+t = 2
+Output
+
+3

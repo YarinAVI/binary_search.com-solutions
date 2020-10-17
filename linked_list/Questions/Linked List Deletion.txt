@@ -1,0 +1,10 @@
+Given a singly linked list node, and an integer target, return the same linked list with all nodes whose value is target removed.
+
+Example 1
+Input
+
+node = 0 → 1 → 1 → 2
+target = 1
+Output
+
+0 → 2
